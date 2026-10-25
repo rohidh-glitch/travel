@@ -1,4 +1,4 @@
-```yaml
+
 name: Deploy TravelGo to GitHub Pages
 
 on:
@@ -51,4 +51,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-```
+        
